@@ -1,24 +1,6 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 @codewithsadee 
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
 
-    /**
-     * colors
-     */
+    
   
     --spanish-gray: hsl(0, 0%, 60%);
     --sonic-silver: hsl(0, 0%, 47%);
@@ -32,9 +14,7 @@
     --white: hsl(0, 100%, 100%);
     --onyx: hsl(0, 0%, 27%);
   
-    /**
-     * typography
-     */
+   
   
     --fs-1: 1.563rem;
     --fs-2: 1.375rem;
@@ -54,16 +34,12 @@
     --weight-600: 600;
     --weight-700: 700;
   
-    /**
-     * border-radius
-     */
+   
   
     --border-radius-md: 10px;
     --border-radius-sm: 5px;
   
-    /**
-     * transition 
-     */
+   
   
     --transition-timing: 0.2s ease;
   
@@ -72,10 +48,7 @@
   
   
   
-  
-  /*-----------------------------------*\
-    #RESET
-  \*-----------------------------------*/
+ 
   
   *, *::before, *::after {
     margin: 0;
@@ -113,10 +86,7 @@
   
   body { background: var(--white); }
   
-  /**
-   * scrollbar style
-   */
-  
+
   body::-webkit-scrollbar { width: 15px; }
   
   body::-webkit-scrollbar-track {
@@ -135,10 +105,7 @@
   
   
   
-  
-  /*-----------------------------------*\
-    #REUSED STYLE
-  \*-----------------------------------*/
+
   
   .container { padding: 0 15px; }
   
@@ -174,13 +141,7 @@
   
   
   
-  /*-----------------------------------*\
-    #MAIN
-  \*-----------------------------------*/
-  
-  /**
-   * overlay 
-   */
+
   
   .overlay {
     position: fixed;
@@ -202,9 +163,6 @@
   
   
   
-  /**
-   * MODAL 
-   */
   
   .modal {
     position: fixed;
@@ -330,10 +288,7 @@
   
   
   
-  
-  /**
-   * NOTIFICATION TOAST 
-   */
+ 
   
   .notification-toast {
     position: fixed;
@@ -424,9 +379,6 @@
   
   
   
-  /*-----------------------------------*\
-    #HEADER
-  \*-----------------------------------*/
   
   .header-top,
   .header-user-actions,
@@ -645,10 +597,7 @@
   
   
   
-  
-  /*-----------------------------------*\
-    #BANNER
-  \*-----------------------------------*/
+
   
   .banner { margin: 30px 0; }
   
@@ -726,10 +675,6 @@
   
   
   
-  /*-----------------------------------*\
-    #CATEGORY
-  \*-----------------------------------*/
-  
   .category { margin-bottom: 30px; }
   
   .category-item-container {
@@ -791,9 +736,7 @@
   
   
   
-  /*-----------------------------------*\
-    #SIDEBAR
-  \*-----------------------------------*/
+  
   
   .sidebar {
     background: var(--white);
@@ -965,9 +908,7 @@
   
   
   
-  /*-----------------------------------*\
-    #PRODUCT MINIMAL
-  \*-----------------------------------*/
+
   
   .product-minimal { margin-bottom: 30px; }
   
@@ -1042,10 +983,7 @@
   
   
   
-  
-  /*-----------------------------------*\
-    #PRODUCT FEATURED
-  \*-----------------------------------*/
+
   
   .product-featured { margin-bottom: 30px; }
   
@@ -1200,9 +1138,7 @@
   
   
   
-  /*-----------------------------------*\
-    #PRODUCT GRID
-  \*-----------------------------------*/
+  
   
   .product-main { margin-bottom: 30px; }
   
@@ -1344,13 +1280,6 @@
   .product-grid del { color: var(--sonic-silver); }
   
   
-  
-  
-  
-  /*-----------------------------------*\
-    #TESTIMONIAL
-  \*-----------------------------------*/
-  
   .testimonials-box { margin-bottom: 50px; }
   
   .testimonial-card {
@@ -1392,13 +1321,7 @@
     font-size: var(--fs-7);
   }
   
-  
-  
-  
-  
-  /*-----------------------------------*\
-    #CTA
-  \*-----------------------------------*/
+
   
   .cta-container {
     position: relative;
@@ -1461,13 +1384,6 @@
   }
   
   
-  
-  
-  
-  /*-----------------------------------*\
-    #SERVICE
-  \*-----------------------------------*/
-  
   .service-container {
     display: flex;
     justify-content: center;
@@ -1509,13 +1425,7 @@
     font-size: var(--fs-9);
   }
   
-  
-  
-  
-  
-  /*-----------------------------------*\
-    #BLOG
-  \*-----------------------------------*/
+
   
   .blog { margin-bottom: 30px; }
   
@@ -1566,13 +1476,7 @@
     color: var(--davys-gray);
   }
   
-  
-  
-  
-  
-  /*-----------------------------------*\
-    #FOOTER
-  \*-----------------------------------*/
+
   
   footer {
     background: var(--eerie-black);
@@ -1729,17 +1633,6 @@
   
   
   
-  
-  
-  /*-----------------------------------*\
-    #RESPONSIVE
-  \*-----------------------------------*/
-  
-  
-  /**
-   * responsive larger than 480px screen
-   */
-  
   @media (min-width: 480px) {
   
     /**
@@ -1756,11 +1649,6 @@
   
     }
   
-  
-  
-    /**
-     * #HEADER
-     */
   
     .header-top {
       display: block;
