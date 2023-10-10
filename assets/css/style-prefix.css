@@ -1,24 +1,7 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 @codewithsadee 
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
-    /**
-     * colors
-     */
+   
   
     --spanish-gray: hsl(0, 0%, 60%);
     --sonic-silver: hsl(0, 0%, 47%);
@@ -73,9 +56,7 @@
   
   
   
-  /*-----------------------------------*\
-    #RESET
-  \*-----------------------------------*/
+
   
   *, *::before, *::after {
     margin: 0;
@@ -123,9 +104,7 @@
   
   body { background: var(--white); }
   
-  /**
-   * scrollbar style
-   */
+  
   
   body::-webkit-scrollbar { width: 15px; }
   
@@ -147,9 +126,6 @@
   
   
   
-  /*-----------------------------------*\
-    #REUSED STYLE
-  \*-----------------------------------*/
   
   .container { padding: 0 15px; }
   
@@ -185,14 +161,7 @@
   
   
   
-  
-  /*-----------------------------------*\
-    #MAIN
-  \*-----------------------------------*/
-  
-  /**
-   * overlay 
-   */
+ 
   
   .overlay {
     position: fixed;
@@ -216,9 +185,7 @@
   
   
   
-  /**
-   * MODAL 
-   */
+ 
   
   .modal {
     position: fixed;
@@ -385,9 +352,7 @@
   
   
   
-  /**
-   * NOTIFICATION TOAST 
-   */
+  
   
   .notification-toast {
     position: fixed;
@@ -518,9 +483,6 @@
   
   
   
-  /*-----------------------------------*\
-    #HEADER
-  \*-----------------------------------*/
   
   .header-top,
   .header-user-actions,
@@ -793,10 +755,7 @@
   
   
   
-  
-  /*-----------------------------------*\
-    #BANNER
-  \*-----------------------------------*/
+
   
   .banner { margin: 30px 0; }
   
@@ -892,9 +851,7 @@
   
   
   
-  /*-----------------------------------*\
-    #CATEGORY
-  \*-----------------------------------*/
+ 
   
   .category { margin-bottom: 30px; }
   
@@ -982,9 +939,7 @@
   
   
   
-  /*-----------------------------------*\
-    #SIDEBAR
-  \*-----------------------------------*/
+
   
   .sidebar {
     background: var(--white);
@@ -1213,9 +1168,7 @@
   
   
   
-  /*-----------------------------------*\
-    #PRODUCT MINIMAL
-  \*-----------------------------------*/
+  
   
   .product-minimal { margin-bottom: 30px; }
   
@@ -1314,13 +1267,7 @@
     color: var(--sonic-silver);
   }
   
-  
-  
-  
-  
-  /*-----------------------------------*\
-    #PRODUCT FEATURED
-  \*-----------------------------------*/
+
   
   .product-featured { margin-bottom: 30px; }
   
@@ -1508,14 +1455,7 @@
     color: var(--davys-gray);
     font-size: var(--fs-11);
   }
-  
-  
-  
-  
-  
-  /*-----------------------------------*\
-    #PRODUCT GRID
-  \*-----------------------------------*/
+
   
   .product-main { margin-bottom: 30px; }
   
@@ -1682,13 +1622,7 @@
   
   .product-grid del { color: var(--sonic-silver); }
   
-  
-  
-  
-  
-  /*-----------------------------------*\
-    #TESTIMONIAL
-  \*-----------------------------------*/
+
   
   .testimonials-box { margin-bottom: 50px; }
   
@@ -1733,13 +1667,6 @@
     font-size: var(--fs-7);
   }
   
-  
-  
-  
-  
-  /*-----------------------------------*\
-    #CTA
-  \*-----------------------------------*/
   
   .cta-container {
     position: relative;
@@ -1811,13 +1738,7 @@
     margin: auto;
   }
   
-  
-  
-  
-  
-  /*-----------------------------------*\
-    #SERVICE
-  \*-----------------------------------*/
+
   
   .service-container {
     display: -webkit-box;
@@ -1881,13 +1802,6 @@
   }
   
   
-  
-  
-  
-  /*-----------------------------------*\
-    #BLOG
-  \*-----------------------------------*/
-  
   .blog { margin-bottom: 30px; }
   
   .blog-container {
@@ -1949,15 +1863,7 @@
     font-style: normal;
     color: var(--davys-gray);
   }
-  
-  
-  
-  
-  
-  /*-----------------------------------*\
-    #FOOTER
-  \*-----------------------------------*/
-  
+
   footer {
     background: var(--eerie-black);
     padding: 30px 0;
@@ -2028,11 +1934,7 @@
     width: 1px;
     height: 15px;
   }
-  
-  
-  /**
-   * footer nav 
-   */
+ 
   
   .footer-nav {
     border-bottom: 1px solid var(--onyx);
@@ -2147,39 +2049,18 @@
   
   
   
-  
-  
-  /*-----------------------------------*\
-    #RESPONSIVE
-  \*-----------------------------------*/
-  
-  
-  /**
-   * responsive larger than 480px screen
-   */
-  
   @media (min-width: 480px) {
-  
-    /**
-     * #CUSTOM PROPERTY
-     */
-  
+ 
     :root {
   
-      /**
-       * typography 
-       */
-  
+      
       --fs-1: 1.875rem;
   
     }
   
   
   
-    /**
-     * #HEADER
-     */
-  
+   
     .header-top {
       display: block;
       padding: 10px 0;
@@ -2208,9 +2089,7 @@
   
   
   
-    /**
-     * #BANNER
-     */
+    
   
     .slider-item { aspect-ratio: 5 / 3; }
   
@@ -2240,9 +2119,7 @@
   
   
   
-    /**
-     * #PRODUCT 
-     */
+    
   
     .product-grid {
       -ms-grid-columns: 1fr 30px 1fr;
@@ -2252,9 +2129,6 @@
   
   
   
-    /**
-     * #CTA
-     */
   
     .cta-content { padding: 40px; }
   
@@ -2271,9 +2145,7 @@
   
   
   
-    /**
-     * #FOOTER
-     */
+    
   
     .copyright { --fs-8: 0.875rem; }
   
@@ -2283,15 +2155,9 @@
   
   
   
-  /**
-   * responsive larger than 570px screen
-   */
-  
   @media (min-width: 570px) {
   
-    /**
-     * #HEADER
-     */
+    
   
     .header-top .container,
     .header-main .container {
@@ -2344,29 +2210,18 @@
   
   
   
-    /**
-     * #BANNER
-     */
-  
     .slider-item { aspect-ratio: 4 / 2; }
   
     .banner-content { background: none; }
   
   
   
-    /**
-     * #CATEGORY
-     */
   
     .category-item-container { gap: 30px; }
   
     .category-item { min-width: -webkit-calc(50% - 15px); min-width: calc(50% - 15px); }
   
   
-  
-    /**
-     * #PRODUCT
-     */
   
     .product-minimal .showcase-container { min-width: 50%; }
   
@@ -2379,17 +2234,11 @@
   
   
   
-    /**
-     * #CTA
-     */
   
     .cta-container { aspect-ratio: 6 / 5; }
   
   
   
-    /**
-     * #BLOG
-     */
   
     .blog-container { gap: 30px; }
   
@@ -2401,21 +2250,12 @@
   
   
   
-  /**
-   * responsive larger than 768px screen
-   */
-  
   @media (min-width: 768px) {
   
-    /**
-     * #CUSTOM PROPERTY
-     */
-  
+   
     :root {
   
-      /**
-       * typography 
-       */
+      
   
       --fs-1: 2.375rem;
   
@@ -2423,18 +2263,13 @@
   
   
   
-    /**
-     * #BASE 
-     */
+    
   
     html { font-size: 17px; }
   
   
   
-    /**
-     * #REUSED STYLE 
-     */
-  
+   
     .container {
       max-width: 750px;
       margin: auto;
@@ -2442,9 +2277,6 @@
   
   
     
-    /**
-     * #MODAL 
-     */
   
     .modal-content {
       display: -webkit-box;
@@ -2467,19 +2299,13 @@
   
   
   
-    /**
-     * #HEADER 
-     */
-  
+   
     .header-main .container { gap: 80px; }
   
     .header-search-container { -webkit-box-flex: 1; -webkit-flex-grow: 1; -ms-flex-positive: 1; flex-grow: 1; }
   
   
   
-    /**
-     * #BANNER 
-     */
   
     .slider-item {
       aspect-ratio: auto;
@@ -2498,17 +2324,12 @@
   
   
   
-    /**
-     * #CATEGORY 
-     */
   
     .category-img-box { padding: 20px; }
   
   
   
-    /**
-     * #PRODUCT 
-     */
+    
   
     .product-minimal {
       display: -webkit-box;
@@ -2560,9 +2381,7 @@
   
   
   
-    /**
-     * #FOOTER 
-     */
+    
   
     .footer-nav .container {
       display: -webkit-box;
@@ -2620,9 +2439,7 @@
   
   
   
-    /**
-     * #REUSED STYLE 
-     */
+    /
   
     .container { max-width: 980px; }
   
